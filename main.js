@@ -26,7 +26,8 @@ var result = {
     swagger: obj.swagger,
     info: obj.info,
     paths: {},
-    definitions: {}
+    definitions: {},
+    basePath: obj.basePath ?? "http://localhost"
 }
 var i = 0;
 obj.apis.forEach(api => {
