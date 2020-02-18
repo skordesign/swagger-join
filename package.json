@@ -1,6 +1,6 @@
 {
   "name": "swagger-join",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Join multi swagger files to one",
   "main": "index.js",
   "scripts": {

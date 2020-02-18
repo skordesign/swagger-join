@@ -27,7 +27,7 @@ var result = {
     info: obj.info,
     paths: {},
     definitions: {},
-    basePath: obj.basePath ?? "http://localhost"
+    basePath: obj.basePath ? obj.basePath : "http://localhost"
 }
 var i = 0;
 obj.apis.forEach(api => {
