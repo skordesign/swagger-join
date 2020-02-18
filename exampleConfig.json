@@ -1,0 +1,12 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Example API",
+        "version": "1.0.0"
+    },
+    "apis": [
+        {
+            "url": "https://petstore.swagger.io/v2/swagger.json"
+        }
+    ]
+}
